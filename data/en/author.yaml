@@ -1,0 +1,19 @@
+# some information about you
+name: "Jesús Antonio Canales Diez"
+nickname: "Jesús"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/profile.jpg"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "contact@jacd.es"
+  phone: "+34669333283"
+
+# some summary about what you do
+summary:
+  - I am a Senior Backend Developer
+  - I am a Go Developer
+  - I am a Devops
+  - I love to learn
+  - I love open-source projects
+  - I love to work with new technologies

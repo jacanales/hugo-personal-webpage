@@ -1,9 +1,12 @@
 {
-  "name": "victor-hugo",
+  "name": "hugo-jacanales",
+  "author": "",
+  "license": "MIT",
   "version": "1.0.0",
-  "description": "Victor Hugo is a Hugo boilerplate for creating truly epic websites!",
-  "repository": "netlify/victor-hugo",
+  "description": "Jesús Antonio Canales Personal webpage",
+  "repository": "jacanales",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "lint": "eslint src",
     "start": "run-p start:**",
@@ -17,10 +20,9 @@
     "build:preview": "npm run build:webpack && npm run build:hugo:preview",
     "build:hugo": "hugo -d ../dist -s site -v",
     "build:hugo:preview": "npm run build:hugo -- -D -F",
-    "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.prod.js"
+    "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.prod.js",
+    "postinstall": "husky install"
   },
-  "author": "",
-  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/plugin-proposal-object-rest-spread": "^7.11.0",
@@ -64,6 +66,10 @@
     "webpack": "^4.37.0",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.10",
-    "webpack-merge": "^4.1.4"
+    "webpack-merge": "^4.1.4",
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "husky": "^5.0.4",
+    "pinst": "^2.1.1"
   }
 }
