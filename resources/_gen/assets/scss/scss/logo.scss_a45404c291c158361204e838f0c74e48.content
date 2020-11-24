@@ -1,0 +1,3 @@
+.initial-navbar .navbar-brand{color:#c0ccda;font-weight:600;margin-right:.5rem}.logo{display:flex;align-items:center;text-decoration:none;font-weight:bold;font-display:auto;font-family:monospace, monospace;color:#a9a9b3}.logo img{height:44px}.logo__mark{margin-right:5px}.logo__text{font-size:1.125rem}.logo__cursor{display:inline-block;width:10px;height:1rem;background:#a9a9b3;margin-left:5px;border-radius:1px;animation:cursor 1s infinite}@media (prefers-reduced-motion: reduce){.logo__cursor{animation:none}}@keyframes cursor{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+
+/*# sourceMappingURL=logo.css.map */
