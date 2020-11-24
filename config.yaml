@@ -1,7 +1,7 @@
 baseURL:
 
 languageCode: en-us
-title: "Jesús Antonio Canales Diez personal webpage"
+title: "Jesús Antonio Canales Diez"
 theme: "toha"
 
 # Manage languages
@@ -27,7 +27,7 @@ params:
   gitRepo: https://github.com/jacanales/hugo-personal-webpage
 
   # specify whether you want to write some blog posts or not
-  enableBlogPost: true
+  enableBlogPost: false
 
   # specify whether you want to show Table of Contents in reading page
   enableTOC: true
